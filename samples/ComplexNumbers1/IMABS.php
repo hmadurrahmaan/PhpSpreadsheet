@@ -46,3 +46,4 @@ for ($row = 1; $row <= $testDataCount; ++$row) {
         . $worksheet->getCell('B' . $row)->getCalculatedValue()
     );
 }
+[[//Test the formulae adjustment
